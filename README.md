@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+Swayamvar – Matrimonial Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Swayamvar is a modern matrimonial web application built using React and Firebase. It provides a smooth and user-friendly experience for individuals looking to find compatible life partners online. The platform allows users to create profiles, search for matches based on filters such as gender, age, religion, caste, and income, and communicate through a built-in chat system.
 
-## Available Scripts
+The main features of Swayamvar include user authentication, profile creation, gender-based and filter-based search, real-time chat using Firebase Firestore, like and match functionality, and a premium chat system. Users can chat for free for the first five messages, after which they are prompted to make a payment to continue chatting. Once payment is successful, chatting resumes without any limit.
 
-In the project directory, you can run:
+The application is built using React for the frontend, Firebase Firestore for the database, Firebase Authentication for login and registration, and Firebase Cloud Messaging for notifications. The design uses clean CSS styling for a smooth and responsive interface. Payment functionality can be integrated through Razorpay or any other payment gateway.
+The project includes several main pages: a Home page for navigation, Login and Register pages for authentication, a Search page for finding matches based on filters, a Matches page displaying compatible profiles, a Chat page for real-time messaging, and a Payment section that appears when users reach the free chat limit.
 
-### `npm start`
+The folder structure is organized into components such as Navbar, ChatPage, Search, Matches, Notifications, Login, and Register. Each component handles a specific functionality of the application, ensuring modular and maintainable code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future improvements planned for Swayamvar include integration of a real payment gateway like Razorpay or Stripe, the addition of video and voice chat options, AI-based compatibility scoring, and profile verification features.
