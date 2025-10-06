@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(to right, #38bdf8, #0ea5e9);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.log-form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  padding: 30px 25px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+}
+
+.Toggle-Button button {
+  background-color: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Toggle-Button button:hover {
+  background-color: #0284c7;
+}
+
+.login-Form fieldset {
+  border: 2px solid #0ea5e9;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.login-Form legend {
+  font-size: 24px;
+  color: #0ea5e9;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #334155;
+  text-align: left;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #0ea5e9;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0284c7;
+}
+
+@media screen and (max-width: 480px) {
+  .log-form {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .Toggle-Button button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  button[type="submit"] {
+    font-size: 16px;
+  }
+}
