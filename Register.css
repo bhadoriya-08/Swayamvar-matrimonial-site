@@ -1,0 +1,90 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Register-Container {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    width: 320px; 
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  fieldset {
+    border: 2px solid #6c63ff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6c63ff;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    text-align: left;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #6c63ff;
+  }
+  
+  button[type="submit"] {
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #5848c2;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .Register-Container {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,73 @@
+.user-avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #60a5fa; /* Slightly stronger blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.liked-profiles-container {
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f0f9ff, #ffffff);
+}
+
+.liked-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.liked-profiles-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Exactly 3 per row */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.liked-profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.liked-profile-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.liked-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #1e293b;
+}
+
+.liked-profile-details {
+  margin-top: 10px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 1024px) {
+  .liked-profiles-list {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .liked-profiles-list {
+    grid-template-columns: 1fr; 
+  }
+}

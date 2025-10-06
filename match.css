@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .matches-container {
+    padding: 1.5rem;
+  }
+  
+  .matches-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .matches-list {
+    margin-top: 2rem;
+  }
+  
+
+  .match-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  
+  .profile-card {
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 20rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .profile-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .profile-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-card p {
+    font-size: 1rem;
+    color: #34495e;
+    margin: 0.5rem 0;
+  }
+  
+  .profile-card strong {
+    font-weight: bold;
+    color: #1abc9c;
+  }
+  
+
+  .loading {
+    text-align: center;
+    color: #f39c12;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .no-matches {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  

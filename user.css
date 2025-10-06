@@ -1,0 +1,103 @@
+/* user.css */
+.user-container {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-avatar {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #aad1f2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.user-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.user-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.user-fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.user-field {
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.user-label {
+  font-weight: bold;
+  color: #222;
+}
+
+.user-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.user-buttons button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+}
+
+.user-buttons .match-button {
+  background-color: #007bff;
+}
+
+.user-buttons .match-button:hover {
+  background-color: #0056b3;
+}
+
+.user-buttons .back-button {
+  background-color: #6c757d;
+}
+
+.user-buttons .back-button:hover {
+  background-color: #495057;
+}
+
+.edit-input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.save-button {
+  background-color: green;
+  color: white;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border-radius: 5px;
+}
+.edit-button {
+  background-color: orange;
+  color: white;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border-radius: 5px;
+}
+
